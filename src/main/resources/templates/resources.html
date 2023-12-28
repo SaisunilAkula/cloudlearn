@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resources</title>
+    <!-- Include Tailwind CSS stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100">
+<div th:replace="header"></div>
+
+<!-- Main content container -->
+<div class="container bg-indigo-50 mx-auto my-8">
+    <!-- List of PDFs -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Example PDF link -->
+        <a href="/images/media/AWS-Certified-Cloud-Practitioner_Sample-Questions.pdf" class="bg-white p-4 rounded shadow-md transition duration-300 hover:bg-blue-100">
+            <h2 class="text-lg font-semibold mb-2">AWS Sample Questions and Answers</h2>
+        </a>
+
+        <!-- Add more PDF links as needed -->
+
+        <!-- Repeat this block for each PDF -->
+    </div>
+</div>
+
+<!-- Additional content container -->
+<div class="container mx-auto my-8">
+    <!-- List of PDFs -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Example PDF link -->
+        <a href="https://engineeringinterviewquestions.com/gcp-google-cloud-platform-interview-questions-and-answers/#google_vignette" class="bg-white p-4 rounded shadow-md transition duration-300 hover:bg-blue-100">
+            <h2 class="text-lg font-semibold mb-2">GCP Sample Questions and Answers</h2>
+        </a>
+
+        <!-- Add more PDF links as needed -->
+
+        <!-- Repeat this block for each PDF -->
+    </div>
+</div>
+
+<!-- Footer -->
+<div th:replace="footer" ></div>
+</body>
+</html>
