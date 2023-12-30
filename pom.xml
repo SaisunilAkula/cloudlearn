@@ -9,8 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.durgaprasad.yadav</groupId>
-    <artifactId>startup</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>cloudlearn</artifactId>
     <name>durgaprasadyadav</name>
     <description>durgaprasadyadav</description>
     <properties>
