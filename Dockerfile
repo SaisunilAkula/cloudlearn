@@ -1,4 +1,5 @@
 FROM openjdk
 LABEL authors="saisunil akula"
-COPY  "/jar/cloudlearn.jar"  "/cloudlearn.jar"
+EXPOSE 4444
+COPY  "jar/cloudlearn.jar"  "/cloudlearn.jar"
 ENTRYPOINT ["java", "-jar","/cloudlearn.jar"]
